@@ -1,0 +1,79 @@
+
+
+
+header h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    text-align: center;
+    
+}
+
+
+#menu ul{
+    display:flex;    /*unordered list is made a flexbox*/
+    flex-basis: 100%;   /*navigation across the top*/
+    justify-content: space-around;
+    list-style-type: none;    /*eliminated the bullet points*/
+
+    /*align-items: center;*/
+    /*width: 15%;*/
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(0,0,0,0);
+}
+
+#menu ul li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-basis:100%;  /*each navigation item is split evenly across the top of the page*/
+    font-size: large;   
+    border: 5px solid aliceblue;
+}
+
+
+
+body{
+    /*background-image: url("/pics/old_frame.webp");*/
+    background-color: black;
+    background-position: center;
+    /*display: flex;*/
+    /*flex-basis: auto*/;
+    height: 100%;
+    width: 100%;
+    /*opacity:1;*/
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-style: normal;
+    color:aliceblue;
+    text-align:left;
+    margin:5%;
+    /*display: flex;   /*main element is a flexbox*/
+}
+
+
+img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
+a:visited{
+    color:green;
+}
+
+a:hover {
+    color: rgb(243, 196, 9);
+}
+
+#education_details p ul li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+aside{
+    height: 30%;
+    width: 25%;
+    padding: 20px;
+    float:left;
+}
